@@ -1,0 +1,4 @@
+Save output from Burp in .xml file.
+Run ./sleuthql.py -d example.com -f example.xml
+Then run find . -name "*.txt" -exec sqlmap --batch -r {} \; or find . -name "*.txt" -exec sqlmap --batch -r {} -level 3 -risk 3 \;
+GO grab a cop of joe!
